@@ -73,9 +73,10 @@ game. Let's try this out. Open `XAxisSpin.cs` and change `Time.deltaTime` to `Ti
 about the Unity `Time` class [here](https://docs.unity3d.com/Manual/TimeFrameManagement.html)). 
 You then need to make a
 further (tiny) modification to make the applied rotation _absolute_ instead of _relative_. When this
-is working correctly, there should be no notable difference from the previous approach in play mode.
+is working correctly, there should be no observable difference in play mode in terms of the rotation
+speed.
 
-Practically speaking is there any difference between the two approaches? Think about the potential
+Practically speaking is there _any_ difference between the two approaches? Think about the potential
 pros and pitfalls of each. To get you started, here are a few questions:
 
 - Would the cube have the same "angle" if it was created sometime after the game started?
